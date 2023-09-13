@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  font-size: 1.05rem;
+}
+
+:root {
+  --primary-color: #f97316;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-block: 1rem;
+  text-transform: capitalize;
+  font-family: "fira code";
+}
+
+.nav-link {
+  font-family: "rubik";
+}
+
+h6 {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+/* body {
+  width: min(90%, 1000px);
+  margin-inline: auto;
+} */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1rem;
+  width: min(90%, 1000px);
+  margin-inline: auto;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link + .nav-link {
+  margin-left: 1.5rem;
+}
+
+.hero-container {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding-block: 3rem;
+  width: min(90%, 1000px);
+  margin-inline: auto;
+}
+
+.location-container {
+  display: flex;
+  margin-top: 1rem;
+  border: 1px #e2e8f0 solid;
+  border-radius: 5px;
+}
+
+.location-container input {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+}
+
+.location-container p {
+  display: block;
+  background-color: var(--primary-color);
+  color: white;
+  width: 300px;
+  text-align: center;
+  /* padding-inline: 5px; */
+}
+
+.about-container {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding-block: 3rem;
+
+  width: min(90%, 1000px);
+  margin-inline: auto;
+}
+
+.about-wrapper {
+  background-color: black;
+  color: white;
+}
+
+/* .recipe-wrapper {
+    background-color: ;
+} */
+
+.recipe-container {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding-block: 3rem;
+  width: min(90%, 1000px);
+  margin-inline: auto;
+}
+
+.recipe-lists {
+  display: flex;
+  justify-content: center;
+}
+
+.recipe-list + .recipe-list {
+  margin-left: 1rem;
+}
+
+.recipe-images {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.working-container {
+  display: grid;
+  padding-block: 3rem;
+  place-items: center;
+  text-align: center;
+  width: min(90%, 1000px);
+  margin-inline: auto;
+}
+
+.working-wrapper {
+  background-color: #ea580c;
+  color: white;
+}
+
+.working {
+  color: yellow;
+}
+
+.working-days {
+  margin-bottom: 2rem;
+}
+
+.working-image {
+  width: 300px;
+}
+
+.testimony-container {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding-block: 3rem;
+  width: min(90%, 1000px);
+  margin-inline: auto;
+}
+
+.testimony-wrapper {
+}
+
+.testimony-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.testimony-star {
+  display: flex;
+  margin-block: 1rem;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  width: min(90%, 1000px);
+  padding-block: 3rem;
+  margin-inline: auto;
+}
+
+.contact-container h6 {
+  text-align: center;
+}
+
+.order {
+  background-color: red;
+  padding: 0.5rem;
+  color: white;
+  width: 200px;
+  border-radius: 20px;
+  border: 0;
+  font-size: 2rem;
+}
+/* .here {
+  padding: 20px;
+} */
+.menu {
+  font-size: 2rem;
+  padding-block: 1rem;
+  color: red;
+  font-weight: 900;
+}
+
+li {
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.email-div {
+  padding-bottom: 1rem;
+  display: grid;
+}
+.email-div input {
+  padding: 10px;
+}
+
+.message-div {
+  display: grid;
+}
+label {
+  padding-bottom: 1rem;
+}
+
+textarea {
+  padding: 10px;
+}
+
+.contact-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  background-color: red;
+  padding: 10px;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  padding: 1rem;
+  color: white;
+}
+
+.active {
+  color: var(--primary-color);
+}
